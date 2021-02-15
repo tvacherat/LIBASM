@@ -6,7 +6,7 @@
 /*   By: tvachera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/05 15:48:42 by tvachera          #+#    #+#             */
-/*   Updated: 2021/02/08 12:06:16 by tvachera         ###   ########.fr       */
+/*   Updated: 2021/02/15 19:48:34 by tvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,6 @@
 #include <unistd.h>
 #include <errno.h>
 #include <fcntl.h>
-
-# define RESET   "\033[0m"
-# define RED     "\033[31m"
-# define GREEN   "\033[32m"
-# define BUFFER_SIZE 512
 
 typedef struct 		s_list
 {
